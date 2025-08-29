@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\onedrive\\turnbasedgame\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\onedrive\\turnbasedgame\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\onedrive\\turnbasedgame\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\onedrive\\turnbasedgame\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\onedrive\\turnbasedgame\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\onedrive\\turnbasedgame\\healer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:healer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\onedrive\\turnbasedgame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\onedrive\\turnbasedgame\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\onedrive\\turnbasedgame\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Interface.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Interface.cs",
+              "RelativeDocumentMoniker": "Interface.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Interface.cs",
+              "RelativeToolTip": "Interface.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:52:47.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Setting.cs",
+              "RelativeDocumentMoniker": "Setting.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Setting.cs",
+              "RelativeToolTip": "Setting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:47:19.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Field.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Field.cs",
+              "RelativeDocumentMoniker": "Field.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Field.cs",
+              "RelativeToolTip": "Field.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:46:50.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Healer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Healer.cs",
+              "RelativeDocumentMoniker": "Healer.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Healer.cs",
+              "RelativeToolTip": "Healer.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwBoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:36:35.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Character.cs",
+              "RelativeDocumentMoniker": "Character.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Character.cs",
+              "RelativeToolTip": "Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:28:50.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Enemy.cs",
+              "RelativeDocumentMoniker": "Enemy.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Enemy.cs",
+              "RelativeToolTip": "Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:09:29.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:02:54.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Archer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Archer.cs",
+              "RelativeDocumentMoniker": "Archer.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Archer.cs",
+              "RelativeToolTip": "Archer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:02:05.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Knight.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Knight.cs",
+              "RelativeDocumentMoniker": "Knight.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\TurnBasedGame\\Knight.cs",
+              "RelativeToolTip": "Knight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T03:34:55.443Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
