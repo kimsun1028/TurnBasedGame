@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
-
+// 커밋 확인용 각주
 namespace TurnBasedGame
 {
     internal class Program

@@ -1,0 +1,30 @@
+# Visual Studio 임시 파일/폴더
+.vs/
+*.vscode/
+
+# 빌드 결과물
+bin/
+obj/
+Debug/
+Release/
+
+# 사용자 설정 파일
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 로그 파일
+*.log
+
+# 자동 생성 캐시
+*.pidb
+*.svclog
+*.pdb
+*.opendb
+
+# 기타 불필요한 파일
+*.dbmdl
+*.bak
+*.backup
+*.tmp

@@ -17,6 +17,7 @@ namespace TurnBasedGame
             this.CurrentHP = 100;
             this.SkillCost = 2;
             this.Job = "아처";
+            this.Name = "아처";
             this.SkillName = "난사(2)";
         }
 
