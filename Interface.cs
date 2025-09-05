@@ -15,7 +15,7 @@ namespace TurnBasedGame
             int endex = 0;
             foreach (Character e in Field.enemiesAlive)
             {
-                Console.Write($"{e.Name} : hp {e.CurrentHP}/{e.MaxHP}");
+                Console.Write($"{e.Job} : hp {e.CurrentHP}/{e.MaxHP}");
                 if (endex + 1 != Field.enemiesAlive.Count)
                 {
                     Console.Write(" | ");
@@ -30,7 +30,7 @@ namespace TurnBasedGame
            
             foreach (Character a in Field.alliesAlive)
             {
-                Console.Write($"{a.Name}({a.Job}) : pw {a.Power}  hp {a.CurrentHP}/{a.MaxHP}");
+                Console.Write($"{a.Name}({index + 1}) : pw {a.Power}  hp {a.CurrentHP}/{a.MaxHP}");
                 if (index + 1 != Field.alliesAlive.Count)
                 {
                     Console.Write(" | ");

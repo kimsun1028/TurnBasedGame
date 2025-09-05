@@ -15,8 +15,7 @@ namespace TurnBasedGame
             this.MaxHP = 70;
             this.CurrentHP = 70;
             this.SkillCost = 1;
-            this.Job = "사제";
-            this.Name = "사제";
+            this.Job = "프리스트";
             this.SkillName = "힐/딜(1)";
         }
 

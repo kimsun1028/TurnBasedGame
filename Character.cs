@@ -8,7 +8,6 @@
         public int CurrentHP;
         public int SkillCost;
         public string Job;
-        public string Name;
         public string SkillName;
         public bool IsAlive => CurrentHP > 0;
 

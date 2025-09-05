@@ -1,7 +1,6 @@
 using System;
 using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
-// 커밋 확인용 각주
 namespace TurnBasedGame
 {
     internal class Program
@@ -109,35 +108,8 @@ namespace TurnBasedGame
         static void Main(string[] args)
         {
             Console.WriteLine("게임 시작!");
-            Console.WriteLine("아군을 선택하세요!");
-            
 
-            int unitIndex = 1;
-            foreach (string unit in Setting.Units)
-            {
-                Console.Write($"{unit} : {unitIndex}");
-                if (unitIndex != Setting.Units.Length)
-                {
-                    Console.Write(" | ");
-                }
-                unitIndex++;
-            }
-            Console.WriteLine();
-
-
-
-
-
-
-
-
-
-
-            Knight knight = new Knight();
-            Archer archer = new Archer();
-            Priest priest = new Priest();
-            Console.Clear();
-            while(true)
+            // 아군 캐릭터 설명 
             {
                 Console.WriteLine("유닛의 설명을 보시겠습니까? (y/n)");
                 string showexplain = Console.ReadLine();
@@ -148,7 +120,7 @@ namespace TurnBasedGame
                     Console.Clear();
                     while (explaination)
                     {
-                        Console.WriteLine("탱커 : 1, 딜러 : 2, 힐러 : 3\n넘어가기 : 0");
+                        Console.WriteLine("나이트 : 1, 아처 : 2, 프리스트 : 3\n넘어가기 : 0");
                         switch (Console.ReadLine())
                         {
                             case "1":
@@ -167,7 +139,7 @@ namespace TurnBasedGame
                                 Console.Clear();
                                 break;
                             case "3":
-                                Console.WriteLine("힐러\n공격력 : 30  체력 : 70" +
+                                Console.WriteLine("프리스트\n공격력 : 30  체력 : 70" +
                                     "\n기본 공격 : 적 한명에게 공격력의 100%만큼 피해를 입히고 스킬포인트를 획득합니다." +
                                     "\n힐/딜(1)  : 적에게 시전해 공격력의 150%의 피해를 입히거나, 아군에게 시전해 공격력의 200% 만큼 체력을 회복시킵니다.\n");
                                 Console.ReadLine();
@@ -179,6 +151,78 @@ namespace TurnBasedGame
                         }
                     }
                 }
+            }
+            
+            // 아군 캐릭터 선택 시작
+            {
+                Console.WriteLine("아군을 선택하세요!");
+                int unitIndex = 1;
+                foreach (string unit in Setting.Units)
+                {
+                    Console.Write($"{unit} : {unitIndex}");
+                    if (unitIndex != Setting.Units.Length)
+                    {
+                        Console.Write(" | ");
+                    }
+                    unitIndex++;
+                }
+                Console.WriteLine("첫번째 캐릭터를 선택하세요!");
+                int firstjob = Console.ReadLine();
+                switch (firstjob)
+                {
+                    case 1: Console.WriteLine("나이트가 파티에 참가합니다."); Knight knight = new Knight(); Field.allies.Insert(0, knight); break;
+                    case 2: Console.WriteLine("아처가 파티에 참가합니다."); Archer archer = new Archer(); Field.allies.Insert(0, archer); break;
+                    case 3: Console.WriteLine("프리스트가 파티에 참가합니다."); Priest priest = new Priest(); Field.allies.Insert(0, priest); break;
+                }
+                Console.ReadLine();
+                Console.WriteLine("2번째 캐릭터를 선택하세요!");
+                int secondjob;
+                while (true)
+                {
+                    secondjob = Console.Read();
+                    if (secondjob == firstjob)
+                    {
+                        Console.WriteLine("이미 파티에 참가했습니다!");
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                switch (secondjob)
+                {
+                    case 1: Console.WriteLine("나이트가 파티에 참가합니다."); Knight knight = new Knight(); Field.allies.Insert(1, knight); break;
+                    case 2: Console.WriteLine("아처가 파티에 참가합니다."); Archer archer = new Archer(); Field.allies.Insert(1, archer); break;
+                    case 3: Console.WriteLine("프리스트가 파티에 참가합니다."); Priest priest = new Priest(); Field.allies.Insert(1, priest); break;
+                }
+                Console.ReadLine();
+                Console.WriteLine("3번째 캐릭터를 선택하세요!");
+                int thirdjob;
+                while (true)
+                {
+                    thirdjob = Console.Read();
+                    if (thirdjob == firstjob&&thirdjob == secondjob)
+                    {
+                        Console.WriteLine("이미 파티에 참가했습니다!");
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                switch (thirdjob)
+                {
+                    case 1: Console.WriteLine("나이트가 파티에 참가합니다."); Knight knight = new Knight(); Field.allies.Insert(2, knight); break;
+                    case 2: Console.WriteLine("아처가 파티에 참가합니다."); Archer archer = new Archer(); Field.allies.Insert(2, archer); break;
+                    case 3: Console.WriteLine("프리스트가 파티에 참가합니다."); Priest priest = new Priest(); Field.allies.Insert(2, priest); break;
+                }
+                Console.WriteLine("엔터를 눌러 계속");
+                Console.Read();
+                Console.Clear();
+            }
+
+            while (true)
+            {
                 Console.WriteLine("던전 1층에 입장하시겠습니까? (y/n)");
                 string enterDungeon = Console.ReadLine();
                 if (enterDungeon == "y")
