@@ -31,7 +31,6 @@
             {
                 Field.skillPoint = Field.maxSkillPoint;
             }
-            Console.ReadLine();
         }
         public abstract void Skill();
 

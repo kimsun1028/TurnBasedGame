@@ -42,12 +42,11 @@ namespace TurnBasedGame
                 if (CurrentHP > MaxHP) CurrentHP = MaxHP;
                 Field.skillPoint--;
                 Console.WriteLine("적 도발 성공");
-            Console.ReadLine();
         }
 
        public override void BasicAttack()
         {
-            Console.WriteLine("대상을 입력하세요 : \n");
+            Console.WriteLine("대상을 입력하세요 : ");
             int enemyIndex = int.Parse(Console.ReadLine()) - 1;
             Character a = Field.enemiesAlive[enemyIndex]; ;
             if (Field.isTaunt)

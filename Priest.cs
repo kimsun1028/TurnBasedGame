@@ -24,22 +24,23 @@ namespace TurnBasedGame
         public override void Skill()
         {
             Field.skillPoint--;   
-            Console.WriteLine("스킬유형을 선택하세요 힐/딜(1)");
+            Console.WriteLine("스킬유형을 입력하세요 힐(1)/딜(2)");
             int n = int.Parse(Console.ReadLine());
             switch(n)
             {
                 case 1:
+                    Console.WriteLine("아군 대상을 입력하세요!");
                     int Index = int.Parse(Console.ReadLine()) - 1;
                     Character a = Field.alliesAlive[Index]; ;
                     a.Heal(2 * this.Power);
                     break;
                 case 2:
+                    Console.WriteLine("적 대상을 입력하세요!");
                     int enemyIndex = int.Parse(Console.ReadLine()) - 1;
                     Character b = Field.enemiesAlive[enemyIndex];
                     b.TakeDamage((int)(1.5 * this.Power));
                     break;
             }
-            Console.ReadLine();
         }
        
 

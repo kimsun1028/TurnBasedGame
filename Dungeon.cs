@@ -27,7 +27,9 @@ namespace TurnBasedGame
                     Console.Clear();
                     Console.WriteLine($"(아군) {turn}번째 턴 {i + 1}번째 행동 ");
                     Interface.ShowStatus();
-                RESELECT_CHARACTER:
+
+                     RESELECT_CHARACTER:
+
                     Console.WriteLine("행동 선택");
                     int index = 1;
                     /* foreach (Character a in Field.alliesAlive)
@@ -70,7 +72,10 @@ namespace TurnBasedGame
                                 Console.WriteLine("올바른 숫자를 입력해주세요");
                                 break;
                         }
+                       
+
                     }
+                    Console.ReadLine();
 
                     // 만약 남은 적이 없다면 (클리어 했다면)
                     if (Field.enemiesAlive.Count == 0)
@@ -85,26 +90,30 @@ namespace TurnBasedGame
                 Console.Clear();
                 Console.WriteLine($"(적) {turn}번째 턴  1번째 행동 ");
                 Interface.ShowStatus();
+                Enemy ActingEnemy1 = Field.enemiesAlive[rnd.Next(Field.enemiesAlive.Count)];
+                Console.WriteLine("적이 기본공격을 사용합니다 :");
                 Console.ReadLine();
-                Character ActingEnemy1 = Field.enemiesAlive[rnd.Next(Field.enemiesAlive.Count)];
-                Console.WriteLine("적이 기본공격을 사용합니다.");
                 ActingEnemy1.BasicAttack();
+                Console.ReadLine();
                 if (Field.alliesAlive.Count == 0)
                 {
                     Console.WriteLine("던전 1층 공략 실패...");
                     return false;
                 }
+                Console.Clear();
                 Console.WriteLine($"(적) {turn}번째 턴 2번째 행동 ");
                 Interface.ShowStatus();
-                Console.ReadLine();
                 Character ActingEnemy2 = Field.enemiesAlive[rnd.Next(Field.enemiesAlive.Count)];
                 Console.WriteLine("적이 스킬을 사용합니다.");
+                Console.ReadLine();
                 ActingEnemy2.Skill();
+                Console.ReadLine();
                 if (Field.alliesAlive.Count == 0)
                 {
                     Console.WriteLine("던전 1층 공략 실패...");
                     return false;
                 }
+               
             } // 던전 1층 끝!
         }
 

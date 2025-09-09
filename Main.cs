@@ -5,7 +5,8 @@ namespace TurnBasedGame
 {
     internal class Program
     {
-      
+       
+
         static void Main(string[] args)
         {
             Console.WriteLine("게임 시작!");
@@ -118,6 +119,7 @@ namespace TurnBasedGame
                     case 3: Console.WriteLine("프리스트가 파티에 참가합니다."); priest = new Priest(); Field.allies.Insert(2, priest); break;
                 }
                 Console.WriteLine("엔터를 눌러 계속");
+                
                 Console.ReadLine();
                 Console.Clear();
             }

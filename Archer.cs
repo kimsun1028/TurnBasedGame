@@ -91,7 +91,6 @@ namespace TurnBasedGame
                 target.TakeDamage(damagePerHit);
                 Thread.Sleep(400);
             }
-            Console.ReadLine();
         }
      
 

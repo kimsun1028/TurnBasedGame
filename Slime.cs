@@ -13,7 +13,7 @@ namespace TurnBasedGame
         this.Job = "슬라임";
         }
 
-        public void BasicAttack()
+        public override void BasicAttack()
         {
             Character target = SelectTarget();
             if (target != null)
@@ -43,6 +43,8 @@ namespace TurnBasedGame
                 tank.TakeDamage(Power);
                 if(!Field.alliesAlive.Contains(tank))
                 SelectTarget().TakeDamage(Power);
+                else
+                    tank.TakeDamage(Power);
             }
             else
             {

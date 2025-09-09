@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\source\\repos\\kimsun1028\\turnbasedgame\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\source\\repos\\kimsun1028\\turnbasedgame\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\source\\repos\\kimsun1028\\turnbasedgame\\priest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:priest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\source\\repos\\kimsun1028\\turnbasedgame\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\source\\repos\\kimsun1028\\turnbasedgame\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\source\\repos\\kimsun1028\\turnbasedgame\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\source\\repos\\kimsun1028\\turnbasedgame\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\source\\repos\\kimsun1028\\turnbasedgame\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\source\\repos\\kimsun1028\\turnbasedgame\\slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\source\\repos\\kimsun1028\\turnbasedgame\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|c:\\users\\user\\source\\repos\\kimsun1028\\turnbasedgame\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A4D86-FE7A-4F3E-9DE1-E2DB5B545862}|TurnBasedGame.csproj|solutionrelative:field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Main.cs",
               "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAADwv5wAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAWwIYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T05:02:54.351Z",
               "IsPinned": true,
@@ -44,38 +68,117 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Dungeon.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Dungeon.cs",
               "RelativeDocumentMoniker": "Dungeon.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Dungeon.cs",
               "RelativeToolTip": "Dungeon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwC4AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T08:31:56.419Z",
+              "WhenOpened": "2025-09-09T09:18:31.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Interface.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Interface.cs",
+              "RelativeDocumentMoniker": "Interface.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Interface.cs",
+              "RelativeToolTip": "Interface.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:09:47.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Priest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Priest.cs",
+              "RelativeDocumentMoniker": "Priest.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Priest.cs",
+              "RelativeToolTip": "Priest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T08:46:23.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Character.cs",
+              "RelativeDocumentMoniker": "Character.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Character.cs",
+              "RelativeToolTip": "Character.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwBoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T08:40:22.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Field.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Field.cs",
+              "RelativeDocumentMoniker": "Field.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Field.cs",
+              "RelativeToolTip": "Field.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T08:36:41.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Slime.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Slime.cs",
+              "RelativeDocumentMoniker": "Slime.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Slime.cs",
+              "RelativeToolTip": "Slime.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwBwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T08:35:12.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Enemy.cs",
+              "RelativeDocumentMoniker": "Enemy.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Enemy.cs",
+              "RelativeToolTip": "Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T08:35:00.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Archer.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Archer.cs",
               "RelativeDocumentMoniker": "Archer.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Archer.cs",
               "RelativeToolTip": "Archer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwFwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T05:02:05.255Z"
+              "WhenOpened": "2025-07-28T05:02:05.255Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Knight.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Knight.cs",
               "RelativeDocumentMoniker": "Knight.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\kimsun1028\\TurnBasedGame\\Knight.cs",
               "RelativeToolTip": "Knight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwDAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T03:34:55.443Z",
               "EditorCaption": ""
