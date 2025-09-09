@@ -152,8 +152,11 @@ namespace TurnBasedGame
                     }
                 }
             }
-            
+
             // 아군 캐릭터 선택 시작
+            Knight knight = null;
+            Archer archer = null;
+            Priest priest = null;
             {
                 Console.WriteLine("아군을 선택하세요!");
                 int unitIndex = 1;
@@ -170,16 +173,16 @@ namespace TurnBasedGame
                 int firstjob = Console.ReadLine();
                 switch (firstjob)
                 {
-                    case 1: Console.WriteLine("나이트가 파티에 참가합니다."); Knight knight = new Knight(); Field.allies.Insert(0, knight); break;
-                    case 2: Console.WriteLine("아처가 파티에 참가합니다."); Archer archer = new Archer(); Field.allies.Insert(0, archer); break;
-                    case 3: Console.WriteLine("프리스트가 파티에 참가합니다."); Priest priest = new Priest(); Field.allies.Insert(0, priest); break;
+                    case 1: Console.WriteLine("나이트가 파티에 참가합니다."); knight = new Knight(); Field.allies.Insert(0, knight); break;
+                    case 2: Console.WriteLine("아처가 파티에 참가합니다.");  archer = new Archer(); Field.allies.Insert(0, archer); break;
+                    case 3: Console.WriteLine("프리스트가 파티에 참가합니다.");  priest = new Priest(); Field.allies.Insert(0, priest); break;
                 }
                 Console.ReadLine();
                 Console.WriteLine("2번째 캐릭터를 선택하세요!");
                 int secondjob;
                 while (true)
                 {
-                    secondjob = Console.Read();
+                    secondjob = Console.ReadLine();
                     if (secondjob == firstjob)
                     {
                         Console.WriteLine("이미 파티에 참가했습니다!");
@@ -191,16 +194,16 @@ namespace TurnBasedGame
                 }
                 switch (secondjob)
                 {
-                    case 1: Console.WriteLine("나이트가 파티에 참가합니다."); Knight knight = new Knight(); Field.allies.Insert(1, knight); break;
-                    case 2: Console.WriteLine("아처가 파티에 참가합니다."); Archer archer = new Archer(); Field.allies.Insert(1, archer); break;
-                    case 3: Console.WriteLine("프리스트가 파티에 참가합니다."); Priest priest = new Priest(); Field.allies.Insert(1, priest); break;
+                    case 1: Console.WriteLine("나이트가 파티에 참가합니다."); knight = new Knight(); Field.allies.Insert(1, knight); break;
+                    case 2: Console.WriteLine("아처가 파티에 참가합니다."); archer = new Archer(); Field.allies.Insert(1, archer); break;
+                    case 3: Console.WriteLine("프리스트가 파티에 참가합니다.");  priest = new Priest(); Field.allies.Insert(1, priest); break;
                 }
                 Console.ReadLine();
                 Console.WriteLine("3번째 캐릭터를 선택하세요!");
                 int thirdjob;
                 while (true)
                 {
-                    thirdjob = Console.Read();
+                    thirdjob = Console.ReadLine();
                     if (thirdjob == firstjob&&thirdjob == secondjob)
                     {
                         Console.WriteLine("이미 파티에 참가했습니다!");
@@ -212,9 +215,9 @@ namespace TurnBasedGame
                 }
                 switch (thirdjob)
                 {
-                    case 1: Console.WriteLine("나이트가 파티에 참가합니다."); Knight knight = new Knight(); Field.allies.Insert(2, knight); break;
-                    case 2: Console.WriteLine("아처가 파티에 참가합니다."); Archer archer = new Archer(); Field.allies.Insert(2, archer); break;
-                    case 3: Console.WriteLine("프리스트가 파티에 참가합니다."); Priest priest = new Priest(); Field.allies.Insert(2, priest); break;
+                    case 1: Console.WriteLine("나이트가 파티에 참가합니다."); knight = new Knight(); Field.allies.Insert(2, knight); break;
+                    case 2: Console.WriteLine("아처가 파티에 참가합니다.");  archer = new Archer(); Field.allies.Insert(2, archer); break;
+                    case 3: Console.WriteLine("프리스트가 파티에 참가합니다."); priest = new Priest(); Field.allies.Insert(2, priest); break;
                 }
                 Console.WriteLine("엔터를 눌러 계속");
                 Console.Read();
@@ -237,10 +240,6 @@ namespace TurnBasedGame
             Console.Clear();
            // Interface.ShowLoadingDot("던전 1층에 입장합니다");
             
-            Field.allies.Insert(0,knight);
-            Field.allies.Insert(1, archer);
-            Field.allies.Insert(2, priest);
-
             // Interface.ShowLoadingDot("슬라임의 점액 냄새가 코를 찌릅니다");
             Slime slime1 = new Slime("슬라임1");
             Slime slime2 = new Slime("슬라임2");

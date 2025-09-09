@@ -21,8 +21,6 @@ namespace TurnBasedGame
 
        
 
-
-
         public override void Skill()
         {
             Field.skillPoint--;   
