@@ -28,10 +28,10 @@ namespace TurnBasedGame
             {
                 Field.remainTauntTurn = 0;
                 CurrentHP = 0;
-                Console.WriteLine($"{Name}이(가) {damage}의 피해를 입고 사망했습니다.");
+                Console.WriteLine($"{Job}이(가) {damage}의 피해를 입고 사망했습니다.");
             }
             else
-                Console.WriteLine($"{Name}이(가) {damage}의 피해를 입었습니다. (HP : {CurrentHP}/{MaxHP})");
+                Console.WriteLine($"{Job}이(가) {damage}의 피해를 입었습니다. (HP : {CurrentHP}/{MaxHP})");
         }
 
         public override void Skill()
@@ -53,12 +53,12 @@ namespace TurnBasedGame
             if (Field.isTaunt)
             {
                 a.TakeDamage(this.Power + (this.MaxHP - this.CurrentHP) / 2);
-                Console.WriteLine($"기본공격(강화)으로 {a.Name}에게 {this.Power + (this.MaxHP - this.CurrentHP) / 2}의 피해를 입혔다!");
+                Console.WriteLine($"기본공격(강화)으로 {a.Job}에게 {this.Power + (this.MaxHP - this.CurrentHP) / 2}의 피해를 입혔다!");
             }
             else
             {
                 a.TakeDamage(this.Power);
-                Console.WriteLine($"기본공격으로 {a.Name}에게 {this.Power}의 피해를 입혔다!");
+                Console.WriteLine($"기본공격으로 {a.Job}에게 {this.Power}의 피해를 입혔다!");
             }
             Field.skillPoint++;
             if(Field.maxSkillPoint < Field.skillPoint)

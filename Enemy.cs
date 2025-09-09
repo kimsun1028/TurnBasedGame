@@ -14,7 +14,6 @@ namespace TurnBasedGame
             this.MaxHP = hp;
             this.CurrentHP = hp;
             this.Power = power;
-            this.Name = name;   
         }
 
        

@@ -24,7 +24,7 @@ namespace TurnBasedGame
         public override void Skill()
         {
             Field.skillPoint--;   
-            Console.WriteLine("스킬 유형을 선택하세요 : 힐(1) / 딜(2)");
+            Console.WriteLine("스킬유형을 선택하세요 힐/딜(1)");
             int n = int.Parse(Console.ReadLine());
             switch(n)
             {

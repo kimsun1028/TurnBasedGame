@@ -8,6 +8,6 @@ namespace TurnBasedGame
 {
     public static class Setting
     {
-        public static string[] Units ={"나이트","아처","사제" };
+        public static string[] Units ={"나이트","아처","프리스트" };
     }
 }

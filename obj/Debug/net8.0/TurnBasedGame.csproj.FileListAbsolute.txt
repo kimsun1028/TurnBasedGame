@@ -31,6 +31,13 @@ C:\Users\User\source\repos\kimsun1028\TurnBasedGame\obj\Debug\net8.0\TurnBasedGa
 C:\Users\User\source\repos\kimsun1028\TurnBasedGame\obj\Debug\net8.0\TurnBasedGame.AssemblyInfo.cs
 C:\Users\User\source\repos\kimsun1028\TurnBasedGame\obj\Debug\net8.0\TurnBasedGame.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\kimsun1028\TurnBasedGame\obj\Debug\net8.0\TurnBasedGame.sourcelink.json
+C:\Users\User\source\repos\kimsun1028\TurnBasedGame\bin\Debug\net8.0\TurnBasedGame.exe
+C:\Users\User\source\repos\kimsun1028\TurnBasedGame\bin\Debug\net8.0\TurnBasedGame.deps.json
+C:\Users\User\source\repos\kimsun1028\TurnBasedGame\bin\Debug\net8.0\TurnBasedGame.runtimeconfig.json
+C:\Users\User\source\repos\kimsun1028\TurnBasedGame\bin\Debug\net8.0\TurnBasedGame.dll
+C:\Users\User\source\repos\kimsun1028\TurnBasedGame\bin\Debug\net8.0\TurnBasedGame.pdb
 C:\Users\User\source\repos\kimsun1028\TurnBasedGame\obj\Debug\net8.0\TurnBasedGame.dll
 C:\Users\User\source\repos\kimsun1028\TurnBasedGame\obj\Debug\net8.0\refint\TurnBasedGame.dll
 C:\Users\User\source\repos\kimsun1028\TurnBasedGame\obj\Debug\net8.0\TurnBasedGame.pdb
+C:\Users\User\source\repos\kimsun1028\TurnBasedGame\obj\Debug\net8.0\TurnBasedGame.genruntimeconfig.cache
+C:\Users\User\source\repos\kimsun1028\TurnBasedGame\obj\Debug\net8.0\ref\TurnBasedGame.dll

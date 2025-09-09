@@ -5,106 +5,7 @@ namespace TurnBasedGame
 {
     internal class Program
     {
-        static bool FirstFloor()
-        {
-            Random rnd = new Random();
-            int turn = 0;
-
-            while (true) //던전 1층 시작!
-            {
-                
-                turn++;
-                if (Field.isTaunt)
-                {
-                    Field.remainTauntTurn--;
-                }
-                // 아군 턴 두번 시작
-                for (int i = 0; i < 2; i++)
-                {
-                    Console.Clear();
-                    Console.WriteLine($"(아군) {turn}번째 턴 {i+1}번째 행동 ");
-                    Interface.ShowStatus();
-                    RESELECT_CHARACTER:
-                    Console.WriteLine("행동 선택");
-                    int index = 1;
-                   /* foreach (Character a in Field.alliesAlive)
-                    {
-                        Console.Write($"{a.Name}({a.Job}) : {index}");
-                        if (index != Field.alliesAlive.Count)
-                        {
-                            Console.Write(" | ");
-                        }
-                        index++;
-                    }*/
-                    int CharacterIndex = int.Parse(Console.ReadLine()) - 1;
-
-                    // 행동할 기물 선택 완료
-                    Character selected = Field.alliesAlive[CharacterIndex];
-                    bool allyTurnOver = false;
-                    while (!allyTurnOver)
-                    {
-                        Console.WriteLine($"기본 공격 : 1  |  {selected.SkillName} : 2");
-                        int action = int.Parse(Console.ReadLine());
-                        switch (action)
-                        {
-                            case 1:
-                                selected.BasicAttack();
-                                allyTurnOver = true;
-                                break;
-                            case 2:
-                                if (selected.CanUseSkill())
-                                {
-                                    selected.Skill();
-                                    allyTurnOver = true;
-                                }
-                                else
-                                {
-                                    Console.WriteLine("스킬포인트가 부족합니다!");
-                                    goto RESELECT_CHARACTER;
-                                }
-                                break;
-                            default:
-                                Console.WriteLine("올바른 숫자를 입력해주세요");
-                                break;
-                        }
-                    }
-
-                    // 만약 남은 적이 없다면 (클리어 했다면)
-                    if (Field.enemiesAlive.Count == 0)
-                    {
-                        Console.WriteLine("던전 1층 클리어!");
-                        return true;
-                    }
-                }
-                //아군 턴 종료
-
-                // 적군 턴 시작
-                Console.Clear();
-                Console.WriteLine($"(적) {turn}번째 턴  1번째 행동 ");
-                Interface.ShowStatus();
-                Console.ReadLine();
-                Character ActingEnemy1 = Field.enemiesAlive[rnd.Next(Field.enemiesAlive.Count)];
-                Console.WriteLine("적이 기본공격을 사용합니다.");
-                ActingEnemy1.BasicAttack();
-                if (Field.alliesAlive.Count == 0)
-                {
-                    Console.WriteLine("던전 1층 공략 실패...");
-                    return false;
-                }
-                Console.WriteLine($"(적) {turn}번째 턴 2번째 행동 ");
-                Interface.ShowStatus();
-                Console.ReadLine();
-                Character ActingEnemy2 = Field.enemiesAlive[rnd.Next(Field.enemiesAlive.Count)];
-                Console.WriteLine("적이 스킬을 사용합니다.");
-                ActingEnemy2.Skill();
-                if (Field.alliesAlive.Count == 0)
-                {
-                    Console.WriteLine("던전 1층 공략 실패...");
-                    return false;
-                }
-            } // 던전 1층 끝!
-        }
-
+      
         static void Main(string[] args)
         {
             Console.WriteLine("게임 시작!");
@@ -158,7 +59,6 @@ namespace TurnBasedGame
             Archer archer = null;
             Priest priest = null;
             {
-                Console.WriteLine("아군을 선택하세요!");
                 int unitIndex = 1;
                 foreach (string unit in Setting.Units)
                 {
@@ -169,20 +69,19 @@ namespace TurnBasedGame
                     }
                     unitIndex++;
                 }
-                Console.WriteLine("첫번째 캐릭터를 선택하세요!");
-                int firstjob = Console.ReadLine();
+                Console.WriteLine("\n첫번째 캐릭터를 선택하세요!");
+                int firstjob = int.Parse(Console.ReadLine());
                 switch (firstjob)
                 {
                     case 1: Console.WriteLine("나이트가 파티에 참가합니다."); knight = new Knight(); Field.allies.Insert(0, knight); break;
                     case 2: Console.WriteLine("아처가 파티에 참가합니다.");  archer = new Archer(); Field.allies.Insert(0, archer); break;
                     case 3: Console.WriteLine("프리스트가 파티에 참가합니다.");  priest = new Priest(); Field.allies.Insert(0, priest); break;
                 }
-                Console.ReadLine();
                 Console.WriteLine("2번째 캐릭터를 선택하세요!");
                 int secondjob;
                 while (true)
                 {
-                    secondjob = Console.ReadLine();
+                    secondjob = int.Parse(Console.ReadLine());
                     if (secondjob == firstjob)
                     {
                         Console.WriteLine("이미 파티에 참가했습니다!");
@@ -198,13 +97,12 @@ namespace TurnBasedGame
                     case 2: Console.WriteLine("아처가 파티에 참가합니다."); archer = new Archer(); Field.allies.Insert(1, archer); break;
                     case 3: Console.WriteLine("프리스트가 파티에 참가합니다.");  priest = new Priest(); Field.allies.Insert(1, priest); break;
                 }
-                Console.ReadLine();
                 Console.WriteLine("3번째 캐릭터를 선택하세요!");
                 int thirdjob;
                 while (true)
                 {
-                    thirdjob = Console.ReadLine();
-                    if (thirdjob == firstjob&&thirdjob == secondjob)
+                    thirdjob = int.Parse(Console.ReadLine());
+                    if (thirdjob == firstjob || thirdjob == secondjob)
                     {
                         Console.WriteLine("이미 파티에 참가했습니다!");
                     }
@@ -220,7 +118,7 @@ namespace TurnBasedGame
                     case 3: Console.WriteLine("프리스트가 파티에 참가합니다."); priest = new Priest(); Field.allies.Insert(2, priest); break;
                 }
                 Console.WriteLine("엔터를 눌러 계속");
-                Console.Read();
+                Console.ReadLine();
                 Console.Clear();
             }
 
@@ -253,7 +151,7 @@ namespace TurnBasedGame
             // 던전 1층 반복문
             while (true)
             {
-                bool isFirstFloorClear = FirstFloor();
+                bool isFirstFloorClear = Dungeon.FirstFloor();
                 Thread.Sleep(3000);
                 Console.Clear();
                 if (isFirstFloorClear)

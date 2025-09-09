@@ -30,7 +30,7 @@ namespace TurnBasedGame
            
             foreach (Character a in Field.alliesAlive)
             {
-                Console.Write($"{a.Name}({index + 1}) : pw {a.Power}  hp {a.CurrentHP}/{a.MaxHP}");
+                Console.Write($"{a.Job}({index + 1}) : pw {a.Power}  hp {a.CurrentHP}/{a.MaxHP}");
                 if (index + 1 != Field.alliesAlive.Count)
                 {
                     Console.Write(" | ");
