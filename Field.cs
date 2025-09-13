@@ -21,7 +21,25 @@ namespace TurnBasedGame
         public static List<Character> alliesAlive => allies.Where(c => c.IsAlive).ToList();
 
         public static List<Enemy> enemiesAlive => enemies.Where(c => c.IsAlive).ToList();
+        public static void StartTurn()
+        {
+            if (isTaunt)
+            {
+                remainTauntTurn--;
+                if (isTaunt == false)
+                {
+                    Character selected = null;
+                    foreach(Character c in alliesAlive) {
+                        if(c is Knight)
+                        {
+                            selected.MaxHP -= 50;
+                            // 현재 체력 깎는 코드 작성 필요
+                        }
 
+                }
+            }
+           
+        }
        
 
     }

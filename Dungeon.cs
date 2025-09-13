@@ -17,10 +17,7 @@ namespace TurnBasedGame
             {
 
                 turn++;
-                if (Field.isTaunt)
-                {
-                    Field.remainTauntTurn--;
-                }
+                Field.StartTurn();
                 // 아군 턴 두번 시작
                 for (int i = 0; i < 2; i++)
                 {
@@ -32,15 +29,7 @@ namespace TurnBasedGame
 
                     Console.WriteLine("행동 선택");
                     int index = 1;
-                    /* foreach (Character a in Field.alliesAlive)
-                     {
-                         Console.Write($"{a.Name}({a.Job}) : {index}");
-                         if (index != Field.alliesAlive.Count)
-                         {
-                             Console.Write(" | ");
-                         }
-                         index++;
-                     }*/
+                    
                     int CharacterIndex = int.Parse(Console.ReadLine()) - 1;
 
                     // 행동할 기물 선택 완료
